@@ -1,0 +1,58 @@
+package org.elevateLab;
+
+public class LibraryApp {
+
+	public static void main(String[] args) {
+	
+		  Library lib = new Library();
+
+	        // Add some books
+	        lib.addBook(new Book(1, "Atomic Habits", "James Clear"));
+	        lib.addBook(new Book(2, "Rich Dad Poor Dad", "Robert Kiyosaki"));
+	        lib.addBook(new Book(3, "Clean Code", "Robert C. Martin"));
+
+	        Scanner sc = new Scanner(System.in);
+	        int choice;
+
+	        do {
+	            System.out.println("\n===== Library Menu =====");
+	            System.out.println("1. Display Books");
+	            System.out.println("2. Issue Book");
+	            System.out.println("3. Return Book");
+	            System.out.println("4. Exit");
+	            System.out.print("Enter choice: ");
+	            choice = sc.nextInt();
+
+	            switch (choice) {
+	                case 1:
+	                    lib.displayBooks();
+	                    break;
+	                case 2:
+	                    System.out.print("Enter Book ID to issue: ");
+	                    int idToIssue = sc.nextInt();
+	                    lib.issueBook(idToIssue);
+	                    break;
+	                case 3:
+	                    System.out.print("Enter Book ID to return: ");
+	                    int idToReturn = sc.nextInt();
+	                    lib.returnBook(idToReturn);
+	                    break;
+	                case 4:
+	                    System.out.println("Exiting system.");
+	                    break;
+	                default:
+	                    System.out.println("Invalid choice.");
+	            }
+	        } while (choice != 4);
+
+	       
+	    
+	
+
+		
+		
+		
+
+	}
+
+}
