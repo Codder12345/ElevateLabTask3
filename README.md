@@ -35,7 +35,7 @@ A simple Java console application demonstrating object-oriented programming conc
 ## 🧑‍💻 Author
 
 Pooja Waykar  
-Project: Calculator Console App  
+Project: Library Management system
 Language: Java
 
 ---
