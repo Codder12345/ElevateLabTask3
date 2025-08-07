@@ -24,10 +24,20 @@ A simple Java console application demonstrating object-oriented programming conc
 1. Clone the repo
 2. Open in Eclips
 3. Compile: `javac *.java`
-4. Run: `java LibraryApp`
+4. Run: `java LibraryApp.java`
 
 ## 📚 OOP Concepts Used
 - Encapsulation
 - Abstraction
 - Polymorphism
 - Inheritance (potential extension idea)
+- 
+## 🧑‍💻 Author
+
+Pooja Waykar  
+Project: Calculator Console App  
+Language: Java
+
+---
+
+Feel free to customize or expand the calculator as needed!
